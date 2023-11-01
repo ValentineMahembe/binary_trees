@@ -68,4 +68,7 @@ typedef binary_tree_t heap_t;
 /* Printing helper function from ALX tools */
 void binary_tree_print(const binary_tree_t *);
 
+/* Helper functions */
+size_t binary_tree_height(const binary_tree_t *tree);
+
 #endif /* BINARY_TREES_H */
